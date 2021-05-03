@@ -1,8 +1,9 @@
 let score1 = 0
 let score2 = 0
 input.onPinPressed(TouchPin.P0, function () {
+    basic.showIcon(IconNames.Yes)
     score1 = 0
-    score2 = 0
+    score1 = 0
     basic.pause(10000)
     if (score1 > score2) {
         basic.showString("Player 1 wins")
