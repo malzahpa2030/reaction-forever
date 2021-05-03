@@ -12,7 +12,6 @@ input.onPinPressed(TouchPin.P0, function () {
     }
     basic.showString("player1:" + score1)
     basic.showString("player2:" + score2)
-    basic.showNumber(0)
 })
 input.onPinPressed(TouchPin.P2, function () {
     score2 += 1
